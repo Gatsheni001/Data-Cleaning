@@ -1,0 +1,106 @@
+customer_id,Transaction Date,Transaction_Amount,customer_age,state,membership_status,transaction_type,transaction_amount
+,2024-01-01,577.17,,california,Inactive,Online,577.17
+CUST0002,2024-01-02,379.55,,california,Pending,Mobile,379.55
+CUST0003,2024-01-03,798.41,,New York,Active,Mobile,798.41
+CUST0004,2024-01-04,71.83,33.0,ny,Active,Online,71.83
+CUST0005,2024-01-05,943.42,37.0,california,Inactive,In-Store,943.42
+CUST0006,2024-01-06,788.36,69.0,New York,Inactive,In-Store,788.36
+CUST0007,2024-01-07,995.68,64.0,California,Pending,Mobile,995.68
+CUST0008,2024-01-08,263.66,42.0,California,,Online,263.66
+CUST0009,2024-01-09,520.37,,California,,In-Store,520.37
+CUST0010,2024-01-10,454.6,51.0,Texas,Inactive,In-Store,454.6
+,2024-01-11,71.73,30.0,Texas,Active,In-Store,71.73
+CUST0012,2024-01-12,337.75,46.0,New York,Pending,In-Store,337.75
+CUST0013,2024-01-13,12.09,,,Pending,In-Store,12.09
+CUST0014,2024-01-14,581.66,,New York,,In-Store,581.66
+CUST0015,2024-01-15,181.66,23.0,ny,Active,In-Store,181.66
+CUST0016,2024-01-16,831.88,63.0,California,Pending,Mobile,831.88
+CUST0017,2024-01-17,882.56,19.0,ny,,Online,882.56
+CUST0018,2024-01-18,141.6,61.0,california,Inactive,Mobile,141.6
+CUST0019,2024-01-19,540.95,20.0,,Active,Online,540.95
+CUST0020,2024-01-20,940.79,,Texas,Active,Online,940.79
+,2024-01-21,808.06,49.0,New York,Inactive,Mobile,808.06
+CUST0022,2024-01-22,280.01,,,,In-Store,280.01
+CUST0023,2024-01-23,127.9,,california,Inactive,Online,127.9
+CUST0024,2024-01-24,419.38,60.0,ny,,In-Store,419.38
+CUST0025,2024-01-25,78.37,42.0,California,Inactive,Online,78.37
+CUST0026,2024-01-26,954.66,63.0,Texas,Inactive,Online,954.66
+CUST0027,2024-01-27,219.21,,california,Pending,Online,219.21
+CUST0028,2024-01-28,864.71,37.0,california,Active,Mobile,864.71
+CUST0029,2024-01-29,21.95,,New York,Inactive,In-Store,21.95
+CUST0030,2024-01-30,201.96,28.0,ny,Inactive,In-Store,201.96
+,2024-01-31,532.72,31.0,Texas,,Online,532.72
+CUST0032,2024-02-01,29.7,,,,In-Store,29.7
+CUST0033,2024-02-02,750.87,31.0,New York,,Online,750.87
+CUST0034,2024-02-03,727.91,41.0,ny,Pending,In-Store,727.91
+CUST0035,2024-02-04,96.19,,california,Inactive,Online,96.19
+CUST0036,2024-02-05,882.51,,Texas,Active,Online,882.51
+CUST0037,2024-02-06,978.19,,California,Active,Mobile,978.19
+CUST0038,2024-02-07,514.7,,,Inactive,Mobile,514.7
+CUST0039,2024-02-08,531.07,,New York,,Online,531.07
+CUST0040,2024-02-09,740.65,,New York,Inactive,In-Store,740.65
+,2024-02-10,845.37,24.0,New York,,Mobile,845.37
+CUST0042,2024-02-11,105.58,31.0,,Active,Mobile,105.58
+CUST0043,2024-02-12,752.09,,california,,In-Store,752.09
+CUST0044,2024-02-13,62.83,68.0,Texas,Pending,Online,62.83
+CUST0045,2024-02-14,829.92,42.0,Texas,Pending,Mobile,829.92
+CUST0046,2024-02-15,885.34,69.0,New York,,Mobile,885.34
+CUST0047,2024-02-16,552.43,,California,Inactive,In-Store,552.43
+CUST0048,2024-02-17,598.33,,Texas,,Mobile,598.33
+CUST0049,2024-02-18,673.71,,,,Mobile,673.71
+CUST0050,2024-02-19,808.05,49.0,california,Pending,Mobile,808.05
+,2024-02-20,299.45,,California,,Online,299.45
+CUST0052,2024-02-21,207.77,23.0,,Pending,Online,207.77
+CUST0053,2024-02-22,11.82,,california,Pending,In-Store,11.82
+CUST0054,2024-02-23,430.8,,,Pending,In-Store,430.8
+CUST0055,2024-02-24,577.4,,New York,Active,In-Store,577.4
+CUST0056,2024-02-25,357.79,32.0,New York,Inactive,Mobile,357.79
+CUST0057,2024-02-26,372.65,,california,Active,In-Store,372.65
+CUST0058,2024-02-27,766.44,18.0,california,Pending,In-Store,766.44
+CUST0059,2024-02-28,626.26,,ny,Inactive,Online,626.26
+CUST0060,2024-02-29,375.27,46.0,New York,Inactive,In-Store,375.27
+,2024-03-01,240.08,,ny,,In-Store,240.08
+CUST0062,2024-03-02,279.11,33.0,Texas,Pending,Online,279.11
+CUST0063,2024-03-03,86.69,42.0,New York,Active,In-Store,86.69
+CUST0064,2024-03-04,102.8,59.0,california,,Online,102.8
+CUST0065,2024-03-05,567.66,,california,,In-Store,567.66
+CUST0066,2024-03-06,35.4,24.0,,,Online,35.4
+CUST0067,2024-03-07,538.83,28.0,ny,,Online,538.83
+CUST0068,2024-03-08,312.14,64.0,Texas,,Online,312.14
+CUST0069,2024-03-09,88.13,33.0,ny,Inactive,In-Store,88.13
+CUST0070,2024-03-10,336.5,,New York,Inactive,Mobile,336.5
+,2024-03-11,146.61,21.0,california,Active,Online,146.61
+CUST0072,2024-03-12,242.42,23.0,california,Active,Online,242.42
+CUST0073,2024-03-13,732.16,,ny,Inactive,In-Store,732.16
+CUST0074,2024-03-14,159.48,,ny,Active,In-Store,159.48
+CUST0075,2024-03-15,518.4,68.0,New York,,Online,518.4
+CUST0076,2024-03-16,943.34,,ny,Inactive,Online,943.34
+CUST0077,2024-03-17,182.4,48.0,New York,Pending,Mobile,182.4
+CUST0078,2024-03-18,377.26,,Texas,Pending,Online,377.26
+CUST0079,2024-03-19,650.29,,New York,,Mobile,650.29
+CUST0080,2024-03-20,21.33,55.0,,Inactive,Mobile,21.33
+,2024-03-21,502.74,,New York,Pending,In-Store,502.74
+CUST0082,2024-03-22,153.6,,,Pending,Online,153.6
+CUST0083,2024-03-23,138.55,49.0,California,Inactive,In-Store,138.55
+CUST0084,2024-03-24,205.81,,Texas,Inactive,Mobile,205.81
+CUST0085,2024-03-25,752.55,,Texas,Active,Online,752.55
+CUST0086,2024-03-26,687.87,63.0,,Inactive,Mobile,687.87
+CUST0087,2024-03-27,195.31,46.0,California,Inactive,Online,195.31
+CUST0088,2024-03-28,728.67,70.0,California,Active,In-Store,728.67
+CUST0089,2024-03-29,844.42,,California,Inactive,Mobile,844.42
+CUST0090,2024-03-30,238.5,45.0,ny,Inactive,In-Store,238.5
+,2024-03-31,603.43,18.0,ny,Pending,Online,603.43
+CUST0092,2024-04-01,986.07,,Texas,,Mobile,986.07
+CUST0093,2024-04-02,831.22,55.0,Texas,Inactive,In-Store,831.22
+CUST0094,2024-04-03,690.09,,,Active,Online,690.09
+CUST0095,2024-04-04,736.58,60.0,ny,Active,Online,736.58
+CUST0096,2024-04-05,569.22,,New York,Active,Mobile,569.22
+CUST0097,2024-04-06,466.58,,california,Inactive,Online,466.58
+CUST0098,2024-04-07,524.31,35.0,California,,Online,524.31
+CUST0099,2024-04-08,997.57,28.0,Texas,,Online,997.57
+CUST0100,2024-04-09,313.91,,california,,Mobile,313.91
+,2024-01-01,577.17,,california,Inactive,Online,577.17
+CUST0002,2024-01-02,379.55,,california,Pending,Mobile,379.55
+CUST0003,2024-01-03,798.41,,New York,Active,Mobile,798.41
+CUST0004,2024-01-04,71.83,33.0,ny,Active,Online,71.83
+CUST0005,2024-01-05,943.42,37.0,california,Inactive,In-Store,943.42
