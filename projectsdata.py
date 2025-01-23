@@ -32,7 +32,7 @@ print("DataFrame after removing duplicates:")
 print(Remove_duplicate)
 
 # Standardize the format of the string data
-df_dropped['customer_id'] = df_dropped['customer_id'].astype(str).str.Upper()                                
+df_dropped['customer_id'] = df_dropped['customer_id'].astype(str).str.upper()                                
 df_dropped['state'] = df_dropped['state'].str.upper()
 print("DataFrame after standardizing customer IDs and state names:")
 print(df_dropped[['customer_id', 'state']])
@@ -91,6 +91,7 @@ print()
 plt.figure(figsize=(12, 6))
 plt.bar(missing_percentage.index, missing_percentage.values)
 plt.xlabel('Columns')
+
 plt.ylabel('Percentage of Missing Values')
 plt.title('Missing Values')
 plt.xticks(rotation=45)
