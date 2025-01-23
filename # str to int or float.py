@@ -19,14 +19,20 @@ print(missing_percentage)
 # Drop rows with missing values
 df_dropped = df.dropna()
 print("DataFrame after dropping missing values:")
-print(df_dropped.head(10))
+print(df_dropped)
+
 
 # Verify the column names
 print("Columns in df_dropped:", df_dropped.columns)
 print()
 
+#Remove duplicate rows
+Remove_duplicate = df_dropped.drop_duplicates()
+print("DataFrame after removing duplicates:")
+print(Remove_duplicate)
+
 # Standardize the format of the string data
-df_dropped['customer_id'] = df_dropped['customer_id'].astype(str).str.upper()
+df_dropped['customer_id'] = df_dropped['customer_id'].astype(str).str.Upper()                                
 df_dropped['state'] = df_dropped['state'].str.upper()
 print("DataFrame after standardizing customer IDs and state names:")
 print(df_dropped[['customer_id', 'state']])
@@ -68,6 +74,18 @@ df_corrected = df_corrected[(df_corrected['Transaction_Amount'] >= lower_bound) 
 print("DataFrame after removing outliers:")
 print(df_corrected)
 
+#Standardize the format of the string data.
+df_corrected['customer_id'] = df_corrected['customer_id'].astype(str).str.upper()
+df_corrected['state'] = df_corrected['state'].str.upper()
+print("DataFrame after standardizing customer IDs and state names:")
+print(df_corrected[['customer_id', 'state']])
+print()
+
+#Remove irrelevant columns from the dataset.
+df_corrected = df_corrected.drop(['customer_id','state'], axis=1)
+print("Data with irrelevent columns removed:")
+print(df_corrected)
+print() 
 
 # Visualizations
 plt.figure(figsize=(12, 6))
@@ -77,6 +95,8 @@ plt.ylabel('Percentage of Missing Values')
 plt.title('Missing Values')
 plt.xticks(rotation=45)
 plt.show()
+
+
 
 # Create a new CSV file with the cleaned and standardized data
 df_corrected.to_csv('cleaned_data.csv', index=False)
