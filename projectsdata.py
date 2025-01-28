@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 # Read the CSV file
 df = pd.read_csv('customer_transactions.csv')
@@ -81,22 +82,22 @@ print("DataFrame after standardizing customer IDs and state names:")
 print(df_corrected[['customer_id', 'state']])
 print()
 
-#Remove irrelevant columns from the dataset.
-df_corrected = df_corrected.drop(['customer_id','state'], axis=1)
-print("Data with irrelevent columns removed:")
+df_corrected = df_corrected.drop(['customer_id', 'state'], axis=1)
+print("Data with irrelevant columns removed:")
 print(df_corrected)
 print() 
 
-# Visualizations
-plt.figure(figsize=(12, 6))
-plt.bar(missing_percentage.index, missing_percentage.values)
-plt.xlabel('Columns')
+# Visualizations in plotly
 
-plt.ylabel('Percentage of Missing Values')
-plt.title('Missing Values')
+# Create a bar chart to show the distribution of transaction amounts
+fig = px.bar(df_corrected, x='Transaction_Amount', title='Distribution of Transaction Amounts')
+fig.show()
+rotated_x = df_corrected['Transaction_Amount'].value_counts().sort_index().plot(kind='bar', figsize=(10, 6))
+plt.title('Distribution of Transaction Amounts')
+plt.xlabel('Transaction Amount')
+plt.ylabel('Count')
 plt.xticks(rotation=45)
 plt.show()
-
 
 
 # Create a new CSV file with the cleaned and standardized data
